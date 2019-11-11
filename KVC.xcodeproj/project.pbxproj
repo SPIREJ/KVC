@@ -17,6 +17,8 @@
 		09E6763723792F3500020514 /* KVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E6763623792F3500020514 /* KVCTests.m */; };
 		09E6764223792F3500020514 /* KVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E6764123792F3500020514 /* KVCUITests.m */; };
 		09E67651237938B000020514 /* SPPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E67650237938B000020514 /* SPPerson.m */; };
+		09E676542379560E00020514 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E676532379560E00020514 /* Book.m */; };
+		09E6765723795B3F00020514 /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E6765623795B3F00020514 /* Address.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		09E6764323792F3500020514 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09E6764F237938B000020514 /* SPPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPPerson.h; sourceTree = "<group>"; };
 		09E67650237938B000020514 /* SPPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPPerson.m; sourceTree = "<group>"; };
+		09E676522379560E00020514 /* Book.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		09E676532379560E00020514 /* Book.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		09E6765523795B3F00020514 /* Address.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Address.h; sourceTree = "<group>"; };
+		09E6765623795B3F00020514 /* Address.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Address.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,10 @@
 				09E6762123792F2900020514 /* ViewController.m */,
 				09E6764F237938B000020514 /* SPPerson.h */,
 				09E67650237938B000020514 /* SPPerson.m */,
+				09E676522379560E00020514 /* Book.h */,
+				09E676532379560E00020514 /* Book.m */,
+				09E6765523795B3F00020514 /* Address.h */,
+				09E6765623795B3F00020514 /* Address.m */,
 				09E6762323792F2900020514 /* Main.storyboard */,
 				09E6762623792F3400020514 /* Assets.xcassets */,
 				09E6762823792F3400020514 /* LaunchScreen.storyboard */,
@@ -276,6 +286,8 @@
 				09E6761C23792F2900020514 /* AppDelegate.m in Sources */,
 				09E6762D23792F3500020514 /* main.m in Sources */,
 				09E67651237938B000020514 /* SPPerson.m in Sources */,
+				09E6765723795B3F00020514 /* Address.m in Sources */,
+				09E676542379560E00020514 /* Book.m in Sources */,
 				09E6761F23792F2900020514 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
